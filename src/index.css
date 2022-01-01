@@ -8,6 +8,11 @@
   --color-grey: #d9dab0;
   --color-grey-light: #e2e2e2;
   --color-icons: #e2e2e2;
+
+  --z-index-1: 100;
+  --z-index-2: 200;
+  --z-index-4: 300;
+  --z-index-5: 400;
 }
 
 /* Fonts */
