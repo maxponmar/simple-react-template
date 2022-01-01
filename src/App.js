@@ -1,9 +1,15 @@
-import './App.css';
+import styles from './App.module.css';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
 
 function App() {
   return (
-    <div className="App">
-      Simple React Template
+    <div className={styles.app}>
+      <Header title={"Simple React Template"}/>
+      <div className={styles.container}>
+
+      </div>
+      <Footer/>
     </div>
   );
 }
