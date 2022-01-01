@@ -1,1 +1,47 @@
+/* Global CSS Variables */
+:root {
+  --color-primary: #19456b;
+  --color-primary-light: #487e95;
+  --color-secondary: #719fb0;
+  --color-white: #eeeeee;
+  --color-black: #23120b;
+  --color-grey: #d9dab0;
+  --color-grey-light: #e2e2e2;
+  --color-icons: #e2e2e2;
+}
 
+/* Fonts */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto'), url('./assets/fonts/Roboto-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Robto';
+  font-style: bold;
+  font-weight: bold;
+  src: local('Roboto'), url('./assets/fonts/Roboto-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #000;
+}
