@@ -1,13 +1,17 @@
 /* Global CSS Variables */
 :root {
-  --color-primary: #19456b;
-  --color-primary-light: #487e95;
-  --color-secondary: #719fb0;
-  --color-white: #eeeeee;
-  --color-black: #23120b;
-  --color-grey: #d9dab0;
-  --color-grey-light: #e2e2e2;
-  --color-icons: #e2e2e2;
+  --color-primary: #ffa500;
+  --color-secondary: #082032;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey: #9d9d9d;
+  --color-grey-light: #f3f1f5;
+
+  --color-background: #eeeeee;
+  --color-text: #000;
+
+  --color-sidebar: #334756;
+  --color-sidebar: #c8c6c6;
 
   --z-index-1: 100;
   --z-index-2: 200;
@@ -17,18 +21,18 @@
 
 /* Fonts */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  src: local('Roboto'), url('./assets/fonts/Roboto-Regular.woff') format('woff');
+  src: local("Roboto"), url("./assets/fonts/Roboto-Regular.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Robto';
+  font-family: "Robto";
   font-style: bold;
   font-weight: bold;
-  src: local('Roboto'), url('./assets/fonts/Roboto-Bold.woff') format('woff');
+  src: local("Roboto"), url("./assets/fonts/Roboto-Bold.woff") format("woff");
   font-display: swap;
 }
 
