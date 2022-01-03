@@ -12,9 +12,6 @@
   align-items: center;
 }
 
-.information {
-}
-
 .title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -24,9 +21,7 @@
 .copyright {
   font-size: 1.5rem;
   display: block;
-}
-
-.contact {
+  color: var(--color-secondary);
 }
 
 .link {
