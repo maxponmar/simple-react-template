@@ -1,5 +1,5 @@
-import SidebarToggler from "../sidebar/sidebartoggler/SidebarToggler";
-import ThemeToggler from "../themetoggler/ThemeToggler";
+import SidebarToggler from "components/layout/sidebar/sidebartoggler/SidebarToggler";
+import ThemeToggler from "components/layout/themetoggler/ThemeToggler";
 import styles from "./Header.module.css";
 
 const Header = ({title}) => {
