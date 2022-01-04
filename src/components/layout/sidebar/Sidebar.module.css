@@ -1,0 +1,25 @@
+.sidebar {
+  position: fixed;
+  top: 3.5rem;
+  /* left: 0;
+  width: 25rem; */
+  height: calc(100vh - 13.5rem);
+  z-index: var(--z-index-1);
+  padding: 3rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: var(--color-sidebar);
+  transition: all 0.2s;
+}
+
+.hidden {
+  width: 0;
+  left: -1000px;
+  opacity: 0;
+}
+
+.showed {
+  width: 25rem;
+  left: 0;
+  opacity: 1;
+}

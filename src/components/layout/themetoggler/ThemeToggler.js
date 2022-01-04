@@ -50,7 +50,7 @@ const ThemeToggler = () => {
         onClick={toggleTheme}
         ref={themeCheckboxRef}
       />
-      <label for="time">Night</label>
+      <label htmlFor="time">Night</label>
     </div>
   );
 };

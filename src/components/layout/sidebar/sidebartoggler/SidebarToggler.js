@@ -1,11 +1,11 @@
 import styles from "./SidebarToggler.module.css";
 
-const SidebarToggler = () => {
+const SidebarToggler = ({ toggleSidebarHandler }) => {
   return(
     <div className={styles.toggler}>
-      <input id="navi-toggle" type="checkbox" class={styles.checkbox} />
-        <label for="navi-toggle" class={styles.button}>
-        <span class={styles.icon}>&nbsp;</span>
+      <input id="navi-toggle" type="checkbox" className={styles.checkbox} onClick={toggleSidebarHandler}/>
+        <label htmlFor="navi-toggle" className={styles.button}>
+        <span className={styles.icon}>&nbsp;</span>
       </label>
     </div>
   )
