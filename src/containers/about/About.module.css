@@ -1,0 +1,9 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
