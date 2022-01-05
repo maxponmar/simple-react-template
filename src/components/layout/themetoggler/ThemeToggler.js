@@ -24,7 +24,7 @@ const ThemeToggler = () => {
     } else {
       themeCheckboxRef.current.checked = true;
     }
-  }, [""]);
+  }, []);
 
   useEffect(() => {
     const theme = CurrentMode === "light" ? lightTheme : darkTheme;
