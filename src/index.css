@@ -16,6 +16,7 @@
   --z-index-2: 200;
   --z-index-4: 300;
   --z-index-5: 400;
+  --z-index-modal: 1000;
 }
 
 /* Fonts */
