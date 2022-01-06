@@ -4,12 +4,12 @@ import React, { useState, useEffect, useRef } from "react";
 const lightTheme = {
   "--color-text": "#000000",
   "--color-background": "#eeeeee",
-  "--color-sidebar": "#334756",
+  "--color-sidebar": "#c8c6c6",
 };
 const darkTheme = {
   "--color-text": "#ffffff",
   "--color-background": "#011627",
-  "--color-sidebar": "#c8c6c6",
+  "--color-sidebar": "#334756",
 };
 
 const ThemeToggler = () => {
