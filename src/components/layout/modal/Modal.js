@@ -1,7 +1,8 @@
 import styles from "./Modal.module.css";
+import ReactDOM from "react-dom";
 
 function Modal(props) {
-  return props.show ? (
+  const modal = props.show ? (
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.header}>
@@ -16,6 +17,7 @@ function Modal(props) {
       </div>
     </div>
   ) : null;
+  return ReactDOM.createPortal(modal, document.getElementById('overlay'));
 }
 
 export default Modal;
